@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px)
+{
+	main
+	{
+		font-size: 20px;
+	}
+}
+
+main
+{
+	text-align: center;
+	line-height: 25px;
+	font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+	background-color: #F0F0F0;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.img-plus-info
+{
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.timeline
+{
+	text-align: left;
+	margin-left: 120px;
+	margin-bottom: -25px;
+	margin-top: 45px;
+}
+
+ul
+{
+	text-align: left;
+	margin-left: 85px;
+	margin-top: 45px;
+	line-height: 35px;
+}
+
+h1
+{
+	margin-bottom: 35px;
+}
+
+h2
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.dropbtn
+{
+	background-color: white;
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	font-weight: bold;
+}
+
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #F1F1F1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a 
+{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover
+{
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+	background-color: #F1F1F1;
+}
+
+a:visited
+{
+	color: #0000EE;
+}
